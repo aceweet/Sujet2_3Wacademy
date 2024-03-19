@@ -10,40 +10,92 @@
   <title>Mappy</title>
 </head>
 <body>
-  <header></header>
-  <section>
+  <header>
     <nav class="navbar">
-      <div class="logobox">
-        <img id="logo" src="/www/img/Artboard 6.png" alt="">
-        <span>MAPPY</span>
+    <div class="logobox">
+      <img id="logo" src="/www/img/Artboard 6.png" alt="">
+      <span>MAPPY</span>
+    </div>
+    <ul>
+      <li>
+        <a href="#">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Shops
+        </a>
+      </li>
+      <li class="currentpage">
+        <a class="" href="#">
+          Contact
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Log in
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+  <section>
+    <article class="main2">
+      <h1>Contez nous pour votre devis!</h1>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
       </div>
-      <ul>
-        <li>
-          <a href="#">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            Shops
-          </a>
-        </li>
-        <li class="currentpage">
-          <a class="" href="#">
-            Contact
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            Log in
-          </a>
-        </li>
-      </ul>
-    </nav>
+    </article>
     <article class="main">
-
+      <img src="/www/img/digital map.jpg.webp" alt="">
+      <div class="form">
+        <div>
+          <h2>Contactez nous
+          </h1>
+        </div>
+        <form action="#" method="post">
+          <label for="title">Choose Your Title</label>
+          <br>
+          <input list="title" id="Title" name="title" />
+          <br>
+          <datalist id="title">
+            <option value="Mr."></option>
+            <option value="Ms."></option>
+            <option value="Other"></option>
+          </datalist>
+          <label for="nom">Nom :</label><br>
+          <input type="text" id="nom" name="nom" required><br><br>
+          
+          <label for="email">Adresse Email :</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="telephone">Numéro de Téléphone :</label><br>
+          <input type="tel" id="telephone" name="telephone" pattern="[0-9]{10}" placeholder="Format : 1234567890" required><br><br>
+          
+          <label for="commentaires">Commentaires :</label><br>
+          <textarea id="commentaires" name="commentaires" rows="4" cols="50"></textarea><br><br>
+          
+          <details>
+              <summary>Options supplémentaires</summary>
+              <label for="service">Service :</label><br>
+              <select id="service" name="service">
+                  <option value="ventes">Ventes</option>
+                  <option value="support">Support</option>
+                  <option value="autre">Autre</option>
+              </select><br><br>
+              
+              <label for="newsletter">S'abonner à notre newsletter :</label><br>
+              <input type="checkbox" id="newsletter" name="newsletter" value="oui">
+              <label for="newsletter">Oui, je veux m'abonner.</label><br><br>
+          </details>
+          
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
     </article>
   </section>
+ 
   <footer>
     <nav class="navbarfooter">
       <ul>
