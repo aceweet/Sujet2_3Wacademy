@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #0000E4;
+}
+
+.navbar {
+    background-color: cornsilk;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #0000e4;
+}
+
+.navbarfooter{
+    display: flex;
+    flex-direction: row;
+    background-color: cornsilk;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-top: 1px solid #0000e4;
+}
+
+.navbarfooter ul li{
+    margin: 0 10rem 0 10rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: #0000E4;
+    list-style: none;
+}
+
+.navbarfooter a {
+    text-decoration: none;
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    margin: 0 10rem 0 10rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar, ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.logobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: ;
+}
+
+.logobox img {
+    max-width: 10rem;
+}
+
+.logobox span {
+    color: #0000E4;
+    font-size: 2rem;
+}
+
+.main {
+    background-color: cornsilk;
+    height: 100vh;
+}
+
+.currentpage a {
+    text-decoration: underline;
+}
+
